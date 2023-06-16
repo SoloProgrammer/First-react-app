@@ -1,0 +1,24 @@
+.righthero img{
+    width: 30rem;
+}
+
+.lefthero{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+}
+.lefthero h3{
+    font-size: 3rem;
+    
+}
+.active{
+    background:rgb(167, 101, 243);
+    color: white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
